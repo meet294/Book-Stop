@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+
+.card {
+  font-family: "Bitter", serif;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 375px;
+
+  margin: 10px;
+}
+.container {
+  padding: 5px 16px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_image {
+  width: 60%;
+  height: 200px;
+  border-radius: 1px;
+  margin-top: 10%;
+}
+
+.card_title {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.card_author {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card_description {
+  font-size: 0.8rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  display: block;
+}
